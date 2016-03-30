@@ -4,3 +4,4 @@ docs:
     - "4567:4567"
   volumes:
     - ".:/app/source"  
+    - "./build:/app/build"
