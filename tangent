@@ -7,4 +7,4 @@ test_commands: []
 pre_service_up_commands: []
 post_service_up_commands: []
 
-static_source: "./build"
+static_source: "build"
