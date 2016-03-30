@@ -1,0 +1,10 @@
+build_type: static
+hipchat_room: "MicroServices"
+
+build_commands: 
+  - bundle exec middleman build --clean
+test_commands: []
+pre_service_up_commands: []
+post_service_up_commands: []
+
+static_source: "./build"
