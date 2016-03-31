@@ -4,3 +4,4 @@ docs:
     - "${APP_PORT}:4567"
   volumes:
     - ".:/app/source"  
+    - "./build:/app/build"
