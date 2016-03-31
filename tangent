@@ -8,3 +8,7 @@ pre_service_up_commands: []
 post_service_up_commands: []
 
 static_source: "build"
+
+consul_tags:
+  - nginx_proxy
+  - visibility_developer
