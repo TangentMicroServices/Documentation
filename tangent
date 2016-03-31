@@ -1,13 +1,12 @@
-build_type: static
+project_name: documentation
 hipchat_room: "MicroServices"
 
+docker_service_name: "docs"
 build_commands: 
   - bundle exec middleman build --clean
 test_commands: []
 pre_service_up_commands: []
 post_service_up_commands: []
-
-static_source: "build"
 
 consul_tags:
   - nginx_proxy
