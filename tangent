@@ -11,3 +11,4 @@ post_service_up_commands: []
 consul_tags:
   - nginx_proxy
   - visibility_developer
+  - protected
